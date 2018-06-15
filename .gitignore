@@ -1,0 +1,15 @@
+
+# binaries
+runTests
+lib/**/*.a
+
+# clion
+.idea
+
+# cmake artifacts
+CMake[^L]*
+*cmake*
+Makefile
+
+# doxygen artifacts
+doc/\%*

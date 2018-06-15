@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="skill_cpp_common"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\skill.cpp.common\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="skill.cpp.common">
+				<Option output="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/libskill.cpp.common.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/Makefile&quot;  VERBOSE=1 skill.cpp.common"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="skill.cpp.common/fast">
+				<Option output="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/libskill.cpp.common.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/Makefile&quot;  VERBOSE=1 skill.cpp.common/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/api/AbstractField.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/api/AbstractField.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/api/SkillException.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/api/SkillException.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/api/SkillFile.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/api/SkillFile.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/AbstractStoragePool.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/AbstractStoragePool.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/DistributedField.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/DistributedField.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/FieldDeclaration.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/FieldDeclaration.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/FileWriter.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/FileWriter.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/LazyField.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/LazyField.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/StringPool.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/StringPool.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/UnknownBasePool.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/UnknownBasePool.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/UnknownObject.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/internal/UnknownObject.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/restrictions/FieldRestriction.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/restrictions/FieldRestriction.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/restrictions/TypeRestriction.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/restrictions/TypeRestriction.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/streams/FileInputStream.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/streams/FileInputStream.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/streams/FileOutputStream.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/streams/FileOutputStream.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/streams/MappedInStream.cpp">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/skill/streams/MappedInStream.h">
+			<Option target="skill.cpp.common"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/feldentm/cprojects/nodecount/lib/skill.cpp.common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\skill.cpp.common\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
